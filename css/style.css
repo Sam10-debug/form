@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	padding: 1rem;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 1rem;
+	justify-content: space-between;
+}
+label{
+	display: flex;
+}
+input{
+	margin-left: 0.3rem;
+}
+input:first-of-type{
+	margin-bottom: 1rem;
+}
+
+#email{
+	margin-bottom: 1rem;
+}
+#submit{
+	width: 20%;
+}
